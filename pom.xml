@@ -160,9 +160,19 @@
   </ciManagement>
 
   <distributionManagement>
+    <repository>
+      <id>InMobiReleases</id>
+      <name>InMobi release Repository</name>
+      <url>https://github.com/InMobi/mvn-repo/raw/master/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>InMobiSnapshots</id>
+      <name>InMobi snapshot Repository</name>
+      <url>https://github.com/InMobi/mvn-repo/raw/master/snapshots</url>
+    </snapshotRepository>
     <site>
       <id>lens-site</id>
-      <url>http://lens.apache.org/</url>
+      <url>https://inmobi.github.io/grill/</url>
     </site>
   </distributionManagement>
 
